@@ -47,4 +47,11 @@ $('#submit').val('En Garde!');
 14. (Forgot to) change the placeholder for the message
 $('#message').attr('placeholder','State your business!');
 
-15. 
+15. Disable the submit button and then enable it again
+$('#submit').attr('disabled','disabled');
+$('#submit').removeAttr('disabled');
+
+16. Delete personal data
+$('.bio-info-value').empty();
+
+17. 
