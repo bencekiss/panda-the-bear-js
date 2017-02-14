@@ -57,4 +57,7 @@ $('.bio-info-value').empty();
 17. Clone pikachu to the bottom
 $('#right-image img').clone().appendTo('section');
 
-18. 
+18. Clone that guy some more
+for(var i = 0; i < 11; i++){ $('#right-image img').clone().appendTo('section');}
+
+19. 
