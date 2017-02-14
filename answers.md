@@ -38,4 +38,7 @@ $('#name').attr('placeholder','Identify Yourself!');
 11. Change the value of the name field in the contact form
 $('#name').attr('value','Your Nemesis wooo');
 
-12. 
+12. Change the value of the email field
+$('#email').val('koalathebear@gmail.com');
+
+13. 
