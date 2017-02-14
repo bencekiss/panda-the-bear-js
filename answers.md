@@ -60,4 +60,14 @@ $('#right-image img').clone().appendTo('section');
 18. Clone that guy some more
 for(var i = 0; i < 11; i++){ $('#right-image img').clone().appendTo('section');}
 
-19. 
+19. Add the created_at to the info table (the left span is given from the assignment article, so only the styling and the right span is there).
+
+$(listitem).attr('class','bio-info-item');
+var date = new Date();
+var rightSpan = document.createElement('span');
+var datecreated = document.createTextNode(date);
+rightSpan.appendChild(datecreated);
+listitem.appendChild(rightSpan);
+$(leftSpan).attr('class','bio-info-title');
+$(rightSpan).attr('class','bio-info-value');
+$('.bio-info').append(listitem);
