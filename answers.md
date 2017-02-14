@@ -28,5 +28,11 @@ $('h1').css('font-family','monospace');
 
 9. Change the background color of the round icons on the side
 $('.action-icon-bg').css('background-color','yellow');
+9.b. and the colors of the icons
+$('.icon-envelope').css('color','black');
+$('.icon-download-alt').css('color','black');
 
-10. 
+10. Change the placeholder in the name field of the contact form
+$('#name').attr('placeholder','Identify Yourself!');
+
+11. 
