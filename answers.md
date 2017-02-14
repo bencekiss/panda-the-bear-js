@@ -41,4 +41,7 @@ $('#name').attr('value','Your Nemesis wooo');
 12. Change the value of the email field
 $('#email').val('koalathebear@gmail.com');
 
-13. 
+13. Change the value of the submit button
+$('#submit').val('En Garde!');
+
+14.
