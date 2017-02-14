@@ -8,3 +8,7 @@ $('#left-image img').attr('src', 'http://lorempixel.com/output/abstract-q-c-325-
 3. Changing the name of the "Panda The Bear"
 name = "Bence Not The Bear";
 $('h1.highlight').html(name);
+
+4. Changing the Employment to Experience
+var i = $('#employment .info-title i.icon-suitcase');
+$('#employment .info-title').text("   Experience").prepend(i);
