@@ -26,4 +26,7 @@ $('.highlight').css('color','darksalmon');
 8. Change the font family of h1 to monospace
 $('h1').css('font-family','monospace');
 
-9. 
+9. Change the background color of the round icons on the side
+$('.action-icon-bg').css('background-color','yellow');
+
+10. 
