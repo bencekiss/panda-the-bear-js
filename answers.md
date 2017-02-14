@@ -12,3 +12,7 @@ $('h1.highlight').html(name);
 4. Changing the Employment to Experience
 var i = $('#employment .info-title i.icon-suitcase');
 $('#employment .info-title').text("   Experience").prepend(i);
+
+
+5. Remove the fake time-travel
+$('#time-travel').parent().remove();
