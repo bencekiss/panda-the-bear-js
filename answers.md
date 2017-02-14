@@ -54,4 +54,7 @@ $('#submit').removeAttr('disabled');
 16. Delete personal data
 $('.bio-info-value').empty();
 
-17. 
+17. Clone pikachu to the bottom
+$('#right-image img').clone().appendTo('section');
+
+18. 
