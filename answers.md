@@ -44,4 +44,7 @@ $('#email').val('koalathebear@gmail.com');
 13. Change the value of the submit button
 $('#submit').val('En Garde!');
 
-14.
+14. (Forgot to) change the placeholder for the message
+$('#message').attr('placeholder','State your business!');
+
+15. 
