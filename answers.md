@@ -35,4 +35,7 @@ $('.icon-download-alt').css('color','black');
 10. Change the placeholder in the name field of the contact form
 $('#name').attr('placeholder','Identify Yourself!');
 
-11. 
+11. Change the value of the name field in the contact form
+$('#name').attr('value','Your Nemesis wooo');
+
+12. 
