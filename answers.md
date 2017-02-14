@@ -16,3 +16,14 @@ $('#employment .info-title').text("   Experience").prepend(i);
 
 5. Remove the fake time-travel
 $('#time-travel').parent().remove();
+
+6. Change the color of the body
+$('body').css('color','cornsilk');
+
+7. Change the color of the .highlight class
+$('.highlight').css('color','darksalmon');
+
+8. Change the font family of h1 to monospace
+$('h1').css('font-family','monospace');
+
+9. 
